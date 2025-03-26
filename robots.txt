@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://designestjay.github.io/sitemap.xml 
+Sitemap: https://iamjaydesign.com/sitemap.xml 
