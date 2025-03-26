@@ -2,7 +2,7 @@
 const nextConfig = {
   /* config options here */
   output: 'export',
-  distDir: process.env.NODE_ENV === "production" ? "build" : ".next",
+  distDir: 'out',
   images: {
     unoptimized: true,
     domains: [
