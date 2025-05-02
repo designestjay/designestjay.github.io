@@ -1,3 +1,4 @@
+// Updated AboutSection with new text - July 10, 2024
 'use client'
 
 import React from 'react'
