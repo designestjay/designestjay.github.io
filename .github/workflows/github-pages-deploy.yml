@@ -24,6 +24,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Copy CNAME file
+        run: cp CNAME build/ || echo "iamjaydesign.com" > build/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
