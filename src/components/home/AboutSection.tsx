@@ -24,7 +24,7 @@ const AboutSection = () => {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              Hey, I'm Jay a creative director based in Gothenburg. With a passion for blending creativity and technical precision, I craft professional digital product experiences that captivate audiences and elevate the presence.
+              Hey, I'm Jay, a Creative Director based in Gothenburg. With a passion for user experience, technology and design, I create delightful digital products and experiences that captivate audiences and drive business results.
             </motion.p>
             
             <div className="about-stats grid grid-cols-3 gap-6">
@@ -69,8 +69,8 @@ const AboutSection = () => {
             viewport={{ once: true }}
           >
             <Image
-              src="/images/about-image.webp"
-              alt="A person working in a forest"
+              src="/images/about me.png"
+              alt="Jay - Creative Director"
               fill
               className="object-cover rounded-md"
             />
