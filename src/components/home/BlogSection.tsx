@@ -5,6 +5,14 @@ import Link from 'next/link'
 // Blog posts data
 const blogPosts = [
   {
+    id: 7,
+    title: 'Figma Meetup Recap: UX Design Insights from Redesigning a Food Delivery App',
+    summary: "Recap of our recent Figma meetup in Göteborg, where designers collaborated to redesign a food delivery app, exploring UX insights and the latest Figma features.",
+    image: '/images/assets/blog/Figma meetup-April 24/highres_527567589.jpeg',
+    slug: '/blog/figma-meetup-april-2025',
+    date: 'April 25, 2025'
+  },
+  {
     id: 6,
     title: 'The Future of Design: Insights from Our Recent Meetup',
     summary: "Key takeaways from our design community meetup on emerging trends, AI tools, and collaborative approaches that are reshaping the creative landscape.",

@@ -2,11 +2,13 @@
   "name": "iamjaydesign-portfolio",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev -H 0.0.0.0 --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "create-blog": "node scripts/create-blog-post.js"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
