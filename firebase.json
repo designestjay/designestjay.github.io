@@ -56,6 +56,10 @@
         "destination": "/blog/creativity-and-strategy/index.html"
       },
       {
+        "source": "/blog/figma-meetup-april-2025",
+        "destination": "/blog/figma-meetup-april-2025/index.html"
+      },
+      {
         "source": "/blog/future-of-design-meetup",
         "destination": "/blog/future-of-design-meetup/index.html"
       },
