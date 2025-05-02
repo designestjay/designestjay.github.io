@@ -27,7 +27,7 @@ const AboutMe = () => {
                   transition={{ duration: 0.6 }}
                   viewport={{ once: true }}
                 >
-                  Hey, I'm Jay Design a creative director based in Gothenburg, Sweden. With a passion for blending creativity and technical precision, I craft professional websites that captivate audiences and elevate online presence.
+                  Hey, I'm Jay, a Creative Director based in Gothenburg. With a passion for user experience, technology and design, I create delightful digital products and experiences that captivate audiences and drive business results.
                 </motion.p>
 
                 <div className="stats-container grid grid-cols-3 gap-8 xl:gap-12">
@@ -76,7 +76,7 @@ const AboutMe = () => {
               >
                 <Image
                   src="/images/about me.png"
-                  alt="Jay Design Portrait"
+                  alt="Jay - Creative Director"
                   fill
                   className="object-cover w-full h-full"
                   priority
