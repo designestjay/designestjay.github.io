@@ -1,0 +1,15 @@
+{
+  "projects": {},
+  "targets": {
+    "jay-portfolio-c7bb5": {
+      "hosting": {
+        "main": [
+          "jay-portfolio-c7bb5"
+        ],
+        "custom-domain": [
+          "iamjaydesign-com"
+        ]
+      }
+    }
+  }
+}
