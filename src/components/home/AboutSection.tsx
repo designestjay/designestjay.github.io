@@ -1,4 +1,5 @@
 // Updated AboutSection with new text - July 10, 2024
+// This change needs to be reflected on the live site
 'use client'
 
 import React from 'react'
