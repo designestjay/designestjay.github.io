@@ -60,6 +60,38 @@ export const projects: Project[] = [
     slug: '/works/gordon-murray',
     hidden: true
   },
+  {
+    id: 8,
+    title: 'ESAB',
+    category: 'Interactive Application',
+    image: '/images/assets/ESAB/Image-1.png',
+    slug: '/works/esab',
+    hidden: true
+  },
+  {
+    id: 9,
+    title: 'Magna',
+    category: 'Automotive HMI',
+    image: '/images/assets/Magna/Thumbnail.png',
+    slug: '/works/magna',
+    hidden: true
+  },
+  {
+    id: 10,
+    title: 'Volvo Group AR',
+    category: 'Augmented Reality',
+    image: '/images/assets/Volvo Group AR/Hero.jpg',
+    slug: '/works/volvo-group-ar',
+    hidden: true
+  },
+  {
+    id: 11,
+    title: 'Geely Motors',
+    category: 'Automotive HMI',
+    image: '/images/assets/Geely Motors/Thumbnail.png',
+    slug: '/works/geely-motors',
+    hidden: true
+  },
 ];
 
 /**

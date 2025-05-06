@@ -10,16 +10,18 @@ export const metadata = {
 };
 
 export default function WorksPage() {
+  // All projects should be visible on the works page
+  // No need to filter based on hidden property
   return (
     <MainLayout>
       <section className="works-page padding-global py-16 md:py-24">
         <div className="container-large">
           <div className="works-wrapper">
             <div className="works-header mb-12 md:mb-16">
-              <h1 className="text-7xl font-bold mb-6">
+              <h2 className="section-main-heading cc-heading-h3 mb-6">
                 Selected Works
-              </h1>
-              <p className="subtitle max-w-2xl">
+              </h2>
+              <p className="subtitle max-w-2xl font-normal">
                 A curated collection of projects. Thoughtful, bold, and designed to make an impact.
               </p>
               <p className="caption-small mt-4 text-right">(2020 - 2025)</p>
