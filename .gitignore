@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Large video files
+public/images/assets/ESAB/ESAB-Interactive\ App.mp4
+public/images/assets/Geely\ Motors/Geely-Liv\ Demo\ Video-Optimized.mp4
+public/images/assets/Volvo\ Group\ AR/Volvo\ Group\ Ocean\ Race\ Interactive\ Play-Product\ Video.mp4
