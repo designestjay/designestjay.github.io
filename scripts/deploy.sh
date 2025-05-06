@@ -16,9 +16,15 @@ fi
 
 echo "✅ Build completed successfully!"
 
+# Ensure video directories exist in docs
+echo "📂 Ensuring video directories exist..."
+mkdir -p docs/images/assets/ESAB
+mkdir -p docs/images/assets/Geely\ Motors
+mkdir -p docs/images/assets/Volvo\ Group\ AR
+
 # Copy built files to docs directory (for GitHub Pages)
 echo "📂 Copying build files to docs directory..."
-rsync -av build/ docs/ --delete
+rsync -av build/ docs/ --delete --exclude="images/assets/ESAB/*.mp4" --exclude="images/assets/Geely Motors/*.mp4" --exclude="images/assets/Volvo Group AR/*.mp4"
 
 echo "✅ Files copied to docs directory!"
 
